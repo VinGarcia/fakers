@@ -1,15 +1,3 @@
-# Fakers Creation Library
-
-This project facilitates creating fake instances of Go structs for
-testing purposes.
-
-The library creates these fakers using a set of deterministic fake
-values by default while still allowing the user to overwrite specific
-fields.
-
-## Usage Example
-
-```golang
 package main
 
 import (
@@ -74,4 +62,3 @@ func TestListUsers(t *testing.T) {
 		assertEquals(t, users, test.expectedUsers)
 	}
 }
-```
