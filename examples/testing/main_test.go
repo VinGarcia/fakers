@@ -8,7 +8,7 @@ import (
 )
 
 type User struct {
-	ID        int `fakeAs:"zero"`
+	ID        int
 	Name      string
 	IsAdmin   bool
 	CreatedAt time.Time
